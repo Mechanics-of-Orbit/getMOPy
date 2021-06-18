@@ -9,8 +9,6 @@ To checkthe road map check out the [Notion Page](https://www.notion.so/mopy/Feat
 
 Learn more and contribute on [GitHub](https://github.com/Mechanics-of-Orbit/MOPy).
 
-## Setup
-
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/Mechanics-of-Orbit/MOPy/issues).
 
 Thanks for checking out!!!
