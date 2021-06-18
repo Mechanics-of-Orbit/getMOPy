@@ -2,7 +2,7 @@
 title:               MOPy
 tagline:             'Learn Orbital Mechanics visually'
 description:         'This is an application to learn Orbital Mechanics in a fun and interesting way. You do not require any prior knowledge to get started with it. You can download and get started with it directly.'
-url:                 https://mechanics-of-orbit.github.io/getMOPy/
+url:                 https://mechanics-of-orbit.github.io/getMOPy
 baseurl:             ''
 paginate:            5
 permalink:           pretty
