@@ -3,33 +3,19 @@ layout: post
 title: Introducing MOPy
 ---
 
-[MOPy](https://mechanics-of-orbit.githum.io/MOPy) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown)
+[MOPy](https://mechanics-of-orbit.github.io/MOPy) an open source project on an application which is a learning tool for Orbital Mechanics. If you want to contribute to the project application or if you wish to try out the application and help us with developing the project check out the project on [GitHub](https://github.com/Mechanics-of-Orbit/MOPy)
 
-### Built on Poole
+## Language used
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
+We used python to develop this application. There are many reasons we used python as the programming language. The main one being that anyone with little to no experience in programming or coding in general can understand the syntax easily. Anyone can start learning the language and start messing around with it to understand how it works. 
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+Secondaly there are many robust standard libraries which makes the work a little bit more eaiser. Of course, down the line we do intend to make MOPy a library.
 
-### Lanyon features
+And last but not least Python is the most versitle of the bunch. Once we plan to develop to multiple platform platforms we don't have to switch languages, from developing a web application(which would negate the of a moderatly modern computer and let anyone open through the browser) to developing a full fledged multi-platform application python can be used as the primary language, which would greatly help in focusing more on the module than on the actual progamming itself.
 
-In addition to the features of Poole, Lanyon adds the following:
+## Why did we develop MOPy?
 
-* Toggleable sliding sidebar (built with only CSS) via **☰** link in top corner
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/lanyon#themes), available via `<body>` classes
 
-[Head to the readme](https://github.com/poole/lanyon#readme) to learn more.
-
-### Browser support
-
-Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
 
 ### Download
 
