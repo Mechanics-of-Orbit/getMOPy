@@ -15,16 +15,10 @@ And last but not least Python is the most versitle of the bunch. Once we plan to
 
 ## Why did we develop MOPy?
 
-The growth in space industry is growing, a projection from Morgan Stanley projects that the space industry would generate about $50, many students are showing interest to learn more and more about space technology and its related concepts. 
+The growth in space industry is growing, a projection from Morgan Stanley projects that the space industry would generate about USD 1 Trillion by 2040[[1]](https://www.morganstanley.com/ideas/investing-in-space), and in India it is projected that the revenue will be about 1% of the entire GDP which accounts to USD 50 Billion by 2024 from the current USD 7 Billion[[2]](https://www.pwc.in/assets/pdfs/research-insights/2020/preparing-to-scale-new-heights.pdf). With this being the case many students are showing interest to learn more and more about space technology and its related concepts.
 
-Considering such possibilities, we have come up with an idea to develop a learning tool beneficial to learn more about Orbital Mechanics.
+Considering such possibilities, we have come up with an idea to develop a learning tool beneficial to learn more about Orbital Mechanics in a much more eaiserand accessible way.
 
-Unlike other applications, here a user can learn the basic concepts and apply it whereas other application requires the user to have a minimum knowledge in the field of space mechanics.
-
-MOPy attempts at differentiating itself from other learning tools by allowing the user to endeavor different ideas to invent/create new mission concept and having an opportunity to visualize the result virtually easily.
-
-### Download
-
-Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
+Unlike other applications, here a user can start with no prior knowledge of Orbital Mechanics and start learning the basic concepts and apply it. Whereas in other applications require the user to have a minimum knowledge in the field of space mechanics.
 
 Thanks!

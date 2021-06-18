@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Download
+title: How To Install
 ---
 
 ### Step 1:
