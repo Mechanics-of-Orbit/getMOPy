@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Introducing Lanyon
+title: Introducing MOPy
 ---
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+[MOPy](https://mechanics-of-orbit.githum.io/MOPy) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown)
 
 ### Built on Poole
 
