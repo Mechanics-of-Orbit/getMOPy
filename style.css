@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-* {
+/* * {
     box-sizing: boder-box;
-}
+} */
 
 body {
     background: #4e4f84;
@@ -13,52 +13,58 @@ body {
     overflow: hidden;
 }
 
-.navbar{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr 1fr 1fr 1fr);
-    margin-top: 20px;
-    grid-gap: 20px;
-}
-
-/* .navbar img{
-    display: block;
-
-} */
-
-li{
-    list-style: none;
-}
-
-a{
+a {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
     text-decoration: none;
-    color: #fff;
-}
-
-li:nth-child(1){
-    margin-right: 200px
-}
-
-li:nth-child(2){
-    margin-left: 340px
-}
-
-.nav-link{
+    background: #36375c;
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
     text-align: center;
-    padding: 10px 30px;
-    padding-top: 5px;
-    border-radius: 50px;
-}
-
-.nav-link:not(:first-of-type){
-    background-color: #36375c;
-    transition: transform .3s;
-}
-
-.nav-link:not(:first-of-type):hover{
-    background-color: #eec13a;
+ }
+ 
+ a:hover {
+    background: #eec13a;
     cursor: pointer;
-    transform: translate(5px)
-}
+    /* border-radius: 12px ; */
+ }
+ 
+ .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 3em 1.5em;
+ }
+ 
+ .navigation ul {
+    border-radius: 50%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+ }
+ 
+ .navigation li {
+    flex: 3;    
+ }
+ 
+ @media all and (max-width: 1000px) {
+    .navigation ul {
+       flex-wrap: wrap;
+    }
+    
+    .navigation li {
+       flex: 1 1 50%;
+    }
+ }
+ 
+ @media all and (max-width: 480px) {
+    .navigation li {
+       flex-basis: 100%;
+    }
+ }
+ 
 
 
 github-label{
@@ -71,23 +77,24 @@ github-label{
   color:transparent;
 }
 
-.hero-section {
-    display: grid;
-    grid-template-columns: repeat(2, 900px 1fr);
-    align-items: center;
-    margin-top: 30px
+.main-section {
+    display: flex;
+    height: 500px;
+    /* align-items: center; */
+    justify-content: center;
+    /* align-items: center; */
 }
 
-.hero-section-content{
-    margin-left: 60px;
-    margin-bottom: 50px;
+.content{
+    /* width: 50%;
+    height: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    /* justify-content: center;      */
+    /* margin: auto; */
 }
 
-.hero-section-content .hr{
-    width: 100px;
-    margin-left: 0px;
-    margin-top: -10px;
-}
 
 .hero-section-content .btn{
     border: none;
