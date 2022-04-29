@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* * {
-    box-sizing: boder-box;
-} */
 
 body {
     background: #4e4f84;
@@ -19,7 +16,7 @@ a {
     letter-spacing: 2px;
     text-decoration: none;
     background: #36375c;
-    padding: 20px 5px;
+    padding: 20px 0px;
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -28,7 +25,7 @@ a {
  a:hover {
     background: #eec13a;
     cursor: pointer;
-    /* border-radius: 12px ; */
+    border-radius: 12px ;
  }
  
  .main {
@@ -64,18 +61,78 @@ a {
        flex-basis: 100%;
     }
  }
- 
 
-
-github-label{
-  width:25px;
-  height:25px;
-  border-radius:50%;
-  background-image:url("https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png");
-  background-size:cover;
-  display:block;
-  color:transparent;
+.DT {
+    border-collapse:collapse;
+    border-color:#93a1a1;
+    border-spacing:0;
 }
+
+.DT td{
+    background-color:#fdf6e3;
+    border-bottom-width:1px;
+    border-color:#93a1a1;
+    border-style:solid;
+    border-top-width:1px;
+    border-width:0px;
+    color:#ffffff;
+    font-family:'Roboto', sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.DT th{
+    background-color:#1d1d30;
+    border-bottom-width:1px;
+    border-color:#93a1a1;
+    border-style:solid;
+    border-top-width:1px;
+    border-width:0px;
+    color:#fdf6e3;
+    font-family:'Roboto', sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.DT .DT-Odd{
+    background-color:#4e4f84;
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top
+}
+
+.DT .DT-Header{
+    border-color:inherit;
+    font-weight:bold;
+    position:-webkit-sticky;
+    position:sticky;
+    text-align:center;
+    top:-1px;
+    vertical-align:top;
+    will-change:transform
+}
+    
+.DT .DT-Even{
+    background-color:#36375c;
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top
+}
+
+@media screen and (max-width: 767px) {.DT {
+    width: auto !important;
+}
+.DT col {
+    width: auto !important;
+}
+.DownloadTableMain {
+    overflow-x: auto;-webkit-overflow-scrolling: touch;
+}}
 
 .main-section {
     display: flex;
@@ -85,90 +142,13 @@ github-label{
     /* align-items: center; */
 }
 
-.content{
-    /* width: 50%;
-    height: 50%; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    /* justify-content: center;      */
-    /* margin: auto; */
-}
-
-
-.hero-section-content .btn{
-    border: none;
-    outline: none;
-    padding: 15px 45px;
-    background: transparent;
-    border-radius: 50px;
-    font-size: 20px;
-    color: #fff;
-    cursor: pointer;
-    transition: transform .3s;
-}
-
-.hero-section-content .btn:hover{
-    transform: translateZ(5px);
-    background-color: #eec13a;
-}
-
-.hero-section-content .btn1{
-    background: #36375c;
-}
-
-.code-repo{
-    transform: translateY(80px) translate(30px);
-}
-
-.code-repo github-label{
-    font-size: 35px;
-    width: 15px;
-    height: 15px;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-    transition: all .3s;
-}
-
-.code-repo github-label:hover{
-    transform: translateY(5px);
-}
-
-.tg  {
-  border-collapse:
-  collapse;
-  border-spacing:0;}
-
-.tg td{
-  border-color:black;
-  border-style:solid;
-  border-width:1px;
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  overflow:hidden;
-  padding:10px 5px;
-  word-break:normal;}
-
-.tg th{
-  border-color:black;
-  border-style:solid;
-  border-width:1px;
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  font-weight:normal;
-  overflow:hidden;
-  padding:10px 5px;
-  word-break:normal;}
-
-.tg .tg-0pky{
-  border-color:inherit;
-  text-align:left;
-  vertical-align:top}
-
-
 
 .download-main {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     background: #4e4f84;
     font-weight: 700;
     color: #fff;

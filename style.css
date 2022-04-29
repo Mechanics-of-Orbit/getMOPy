@@ -19,7 +19,7 @@ a {
     letter-spacing: 2px;
     text-decoration: none;
     background: #36375c;
-    padding: 20px 5px;
+    padding: 20px 0px;
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -28,7 +28,7 @@ a {
  a:hover {
     background: #eec13a;
     cursor: pointer;
-    /* border-radius: 12px ; */
+    border-radius: 12px ;
  }
  
  .main {
@@ -67,16 +67,6 @@ a {
  
 
 
-github-label{
-  width:25px;
-  height:25px;
-  border-radius:50%;
-  background-image:url("https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png");
-  background-size:cover;
-  display:block;
-  color:transparent;
-}
-
 .main-section {
     display: flex;
     height: 500px;
@@ -93,86 +83,4 @@ github-label{
     align-items: center;  
     /* justify-content: center;      */
     /* margin: auto; */
-}
-
-
-.hero-section-content .btn{
-    border: none;
-    outline: none;
-    padding: 15px 45px;
-    background: transparent;
-    border-radius: 50px;
-    font-size: 20px;
-    color: #fff;
-    cursor: pointer;
-    transition: transform .3s;
-}
-
-.hero-section-content .btn:hover{
-    transform: translateZ(5px);
-    background-color: #eec13a;
-}
-
-.hero-section-content .btn1{
-    background: #36375c;
-}
-
-.code-repo{
-    transform: translateY(80px) translate(30px);
-}
-
-.code-repo github-label{
-    font-size: 35px;
-    width: 15px;
-    height: 15px;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-    transition: all .3s;
-}
-
-.code-repo github-label:hover{
-    transform: translateY(5px);
-}
-
-.tg  {
-  border-collapse:
-  collapse;
-  border-spacing:0;}
-
-.tg td{
-  border-color:black;
-  border-style:solid;
-  border-width:1px;
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  overflow:hidden;
-  padding:10px 5px;
-  word-break:normal;}
-
-.tg th{
-  border-color:black;
-  border-style:solid;
-  border-width:1px;
-  font-family:Arial, sans-serif;
-  font-size:14px;
-  font-weight:normal;
-  overflow:hidden;
-  padding:10px 5px;
-  word-break:normal;}
-
-.tg .tg-0pky{
-  border-color:inherit;
-  text-align:left;
-  vertical-align:top}
-
-
-
-.download-main {
-    background: #4e4f84;
-    font-weight: 700;
-    color: #fff;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-    overflow: hidden;
 }
