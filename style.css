@@ -19,7 +19,7 @@ a {
     letter-spacing: 2px;
     text-decoration: none;
     background: #36375c;
-    padding: 20px 0px;
+    padding: 20px 5px;
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -28,7 +28,7 @@ a {
  a:hover {
     background: #eec13a;
     cursor: pointer;
-    border-radius: 12px ;
+    /* border-radius: 12px ; */
  }
  
  .main {
