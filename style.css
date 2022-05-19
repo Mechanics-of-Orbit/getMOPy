@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* * {
-    box-sizing: boder-box;
-} */
-
 body {
     background: #4e4f84;
     font-weight: 700;
@@ -19,8 +15,8 @@ body {
    box-sizing: border-box;
    font-family:  'Roboto', sans-serif;
  }
-
-nav{
+ 
+ nav{
    background: #36375c;
    height: 80px;
    width: 100%;
